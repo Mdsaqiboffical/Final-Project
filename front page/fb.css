@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", "Roboto", sans-serif;
+    /* overflow: overlay; */
+}
+body{
+    background-color: #f0f2f0;
+}
+
+.loading-anime {
+    display: flex;
+    height: .2em;
+    width: 100%;
+    background-color: blue;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    animation: anime 1s ease-in-out;
+}
+@keyframes anime {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.nav-img img{
+    height: 3em;
+    width: 3em;
+    margin: .5em 1em;
+}
+
+.search-bar span {
+    margin-right: -9em;
+    color: black;
+    position: sticky;
+    margin-left: 2em;
+    
+}
+
+.search-bar input {
+    height: 3em;
+    width: 15em;
+    border-radius: 1.5em;
+    padding: 1em 2.8em;
+    margin-left: 8em;
+    border: 1px solid #f0f2f0;
+    background-color: #F0F2F5;
+}
+
+.home {
+    font-size: 1.5em;
+    padding: 0  1.5em;
+    color: #656565;
+    margin-left: 2.5em;
+}
+.home:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.video {
+    font-size: 1.5em;
+    padding: 0  2.5em;
+    color: #656565;
+}
+.video:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.market {
+    font-size: 1.5em;
+    padding: 0  1.5em;
+    color: #656565;
+}
+.market:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.group {
+    font-size: 1.5em;
+    padding: 0  1.5em;
+    color: #656565;
+}
+.group:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.game {
+    font-size: 1.5em;
+    padding: 0  1.5em;
+    color: #656565;
+}
+.game:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.menu {
+    font-size: 1.2em;
+    padding: 0  .5em;
+    margin-left: 14em;
+}
+.menu:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.message {
+    font-size: 1.2em;
+    padding: 0  .5em;
+}
+.message:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.bell {
+    font-size: 1.2em;
+    padding: 0  .5em;
+}
+.bell:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+.round-img img {
+    height: 2.8em;
+    width: 2.8em;
+    border-radius: 50%;
+}
+/* close nav-bar */
+
+.left-container {
+    position: fixed;
+}
+.left-container> .profile-img img {
+    margin: 1em .5em;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+}
+.profile-img>span {
+    position: absolute;
+    margin-top: 2em;
+    width: 10em;
+}
+
+.friend {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.friend .fa-regular {
+    color: #42C5B6;
+}
+.friend span {
+    padding: 0 .4em;
+}
+.friend:hover{
+    background-color: #cccccc;
+}
+
+.Event {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.Event .fa-solid {
+    color:#D92040;
+}
+.Event span {
+    padding: 0 .4em;
+}
+.Event:hover{
+    background-color: #cccccc;
+}
+
+.Memories {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.Memories .fa-solid {
+    color: #0ad688;
+}
+.Memories span {
+    padding: 0 .4em;
+}
+.Memories:hover{
+    background-color: #cccccc;
+}
+
+.group-2 {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.group-2 .fa-solid {
+    color: #0aa6d6;
+}
+.group-2 span {
+    padding: 0 .4em;
+}
+.group-2:hover{
+    background-color: #cccccc;
+}
+
+.video-2 {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.video-2 .fa-solid {
+    color: #0aa6d6;
+}
+.video-2 span {
+    padding: 0 .4em;
+}
+.video-2:hover{
+    background-color: #cccccc;
+}
+
+.market-2 {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.market-2 .fa-solid {
+    color: #0aa6d6;
+}
+.market-2 span {
+    padding: 0 .4em;
+}
+.market-2:hover{
+    background-color: #cccccc;
+}
+
+.game-2 {
+    font-size: 1.2em;
+    padding: .8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.game-2 .fa-solid {
+    color: #0aa6d6;
+}
+.game-2 span {
+    padding: 0 .4em;
+}
+.game-2:hover{
+    background-color: #cccccc;
+}
+
+.message-2 {
+    font-size: 1.2em;
+    padding:.8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.message-2 .fa-brands {
+    color: #B83BC4;
+}
+.message-2 span {
+    padding: 0 .4em;
+}
+.message-2:hover{
+    background-color: #cccccc;
+}
+
+.butn {
+    font-size: 1.2em;
+    padding:.8em 1em;
+    width: 100%;
+    background-color: #f0f2f0;
+    border-radius: 10px;
+}
+.butn .fa-brands {
+    color: #B83BC4;
+}
+.butn span {
+    padding: 0 .4em;
+}
+.butn:hover{
+    background-color: #cccccc;
+}
+ /* close left-container  */
+
+ .center-container {
+    position: relative;
+    margin-left: 22em;
+    top: 1em;
+    display: flex;
+ }
+
+ .fb-story{
+    border: 2px solid black;
+    border-radius: 1em;
+    height: 10%;
+    width: 10%;
+ }
+
+ .fb-story img {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+ }
+
+ .fb-story .fa-solid {
+    background-color: #0054f1;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    font-size: 1.2em;
+
+ }
+ .fb-story p {
+    text-align: center;
+ }
+
+ 
+ .fb-story{
+    border: 2px solid black;
+    border-radius: 1em;
+    height: 10%;
+    width: 10%;
+    margin-left: 2em;
+ }
+
+ .fb-story .card-2 img {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+ }
+
+ .fb-story .card-2 .fa-solid {
+    background-color: #0054f1;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    font-size: 1.2em;
+ }
+.card-3 {
+    position: relative;
+    margin-left: 28em;
+    top: 2em;
+    display: flex;
+    background-color: #fff;
+    height: 30vh;
+    width: 30%;
+}
+ .card-3 img{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    display: block;
+    margin: 1em .5em;
+ }
+
+ .card-3 input{
+    height: 3em;
+    width: 80%;
+    margin: 1em auto;
+    border-radius: 2em;
+    padding-left: 4px;
+    border: 2px solid #f0f2f0;
+ }
+ /* .card-3 div {
+    height: 10px;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 10em;
+ } */
